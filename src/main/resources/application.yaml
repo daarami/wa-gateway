@@ -1,3 +1,8 @@
 spring:
   application:
     name: wa-gateway
+
+meta:
+  access-token: ${META_ACCESS_TOKEN}
+  phone-number-id: ${META_PHONE_NUMBER_ID}
+  app-secret: ${META_APP_SECRET}
